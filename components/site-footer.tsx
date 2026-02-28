@@ -3,7 +3,7 @@ export function SiteFooter() {
     <footer className="mt-14 border-t border-nexus-border bg-[#0a0f16]">
       <div className="mx-auto flex w-full max-w-6xl flex-col gap-4 px-4 py-8 text-sm text-nexus-muted sm:px-6 lg:flex-row lg:items-center lg:justify-between lg:px-8">
         <div className="flex items-center gap-3">
-          <img src="/nyxera-labs-logo.svg" alt="Nyxera Labs logo" className="h-8 w-8" />
+          <img src="/nyxera-logo.png" alt="Nyxera Labs logo" className="h-10 w-10 object-contain" />
           <span>Nyxera Nexus by Nyxera Labs. All rights reserved © 2026</span>
         </div>
         <div className="flex flex-wrap gap-4">
