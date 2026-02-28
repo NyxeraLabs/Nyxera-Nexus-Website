@@ -4,7 +4,7 @@ import { SiteHeader } from '@/components/site-header';
 import { SiteFooter } from '@/components/site-footer';
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://nyxera-nexus.nyxera.cloud'),
+  metadataBase: new URL('https://nexus.nyxera.cloud'),
   title: {
     default: 'Nyxera Nexus',
     template: '%s | Nyxera Nexus'
@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Nyxera Nexus',
     description: 'The Unified Offensive Intelligence Platform',
-    url: 'https://nyxera-nexus.nyxera.cloud',
+    url: 'https://nexus.nyxera.cloud',
     siteName: 'Nyxera Nexus',
     type: 'website'
   },

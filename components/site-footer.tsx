@@ -8,9 +8,12 @@ export function SiteFooter() {
         </div>
         <div className="flex flex-wrap gap-4">
           <a href="https://nyxera.cloud" className="hover:text-nexus-text">Nyxera Cloud</a>
-          <a href="https://vectorvue.nyxera.cloud" className="hover:text-nexus-text">VectorVue</a>
           <a href="https://spectrastrike.nyxera.cloud" className="hover:text-nexus-text">SpectraStrike</a>
-          <a href="https://docs.nyxera-nexus.nyxera.cloud" className="hover:text-nexus-text">Nexus Docs</a>
+          <a href="https://docs.spectrastrike.nyxera.cloud" className="hover:text-nexus-text">Spectra Docs</a>
+          <a href="https://vectorvue.nyxera.cloud" className="hover:text-nexus-text">VectorVue</a>
+          <a href="https://docs.vectorvue.nyxera.cloud" className="hover:text-nexus-text">VectorVue Docs</a>
+          <a href="https://nexus.nyxera.cloud" className="hover:text-nexus-text">Nyxera Nexus</a>
+          <a href="https://docs.nexus.nyxera.cloud" className="hover:text-nexus-text">Nexus Docs</a>
         </div>
       </div>
     </footer>
