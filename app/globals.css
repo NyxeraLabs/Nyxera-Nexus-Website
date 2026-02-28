@@ -8,15 +8,32 @@ html, body { margin: 0; min-height: 100%; }
 body {
   @apply bg-nexus-bg text-nexus-text antialiased;
   background-image:
-    radial-gradient(900px 420px at 10% -10%, rgba(54,194,255,.12), transparent 60%),
-    radial-gradient(860px 420px at 100% 0%, rgba(120,130,150,.18), transparent 62%);
+    radial-gradient(980px 460px at 8% -12%, rgba(54,194,255,.16), transparent 62%),
+    radial-gradient(940px 480px at 100% -10%, rgba(120,130,150,.18), transparent 64%),
+    linear-gradient(180deg, #070b14 0%, #070d18 48%, #060a14 100%);
 }
 
 a { color: inherit; }
 
 .grid-canvas {
   background-image:
-    linear-gradient(rgba(159,176,200,.12) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(159,176,200,.12) 1px, transparent 1px);
+    linear-gradient(rgba(159,176,200,.08) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(159,176,200,.08) 1px, transparent 1px);
   background-size: 40px 40px;
+}
+
+@layer components {
+  .nexus-panel {
+    @apply border border-nexus-border/80 bg-nexus-panel/85 shadow-[0_20px_45px_rgba(3,8,18,0.45)];
+    backdrop-filter: blur(8px);
+  }
+
+  .nexus-chip-link {
+    @apply rounded border border-nexus-accent/60 bg-nexus-accent/10 px-4 py-2 text-nexus-text transition-all duration-200;
+  }
+
+  .nexus-chip-link:hover {
+    @apply border-nexus-accent bg-nexus-accent/20;
+    transform: translateY(-1px);
+  }
 }
