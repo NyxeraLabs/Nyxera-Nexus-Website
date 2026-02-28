@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://nyxera-nexus.nyxera.cloud/sitemap.xml
+Sitemap: https://nexus.nyxera.cloud/sitemap.xml
