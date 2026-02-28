@@ -3,7 +3,7 @@ import Link from 'next/link';
 const links = [
   { href: 'https://spectrastrike.nyxera.cloud', label: 'Explore SpectraStrike' },
   { href: 'https://vectorvue.nyxera.cloud', label: 'Explore VectorVue' },
-  { href: 'https://docs.nyxera-nexus.nyxera.cloud', label: 'View Documentation' }
+  { href: 'https://docs.nexus.nyxera.cloud', label: 'View Documentation' }
 ];
 
 export function SiteHeader() {

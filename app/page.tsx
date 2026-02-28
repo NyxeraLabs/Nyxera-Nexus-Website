@@ -10,7 +10,7 @@ export default function HomePage() {
         <div className="mt-6 flex flex-wrap gap-3 text-sm">
           <a href="https://spectrastrike.nyxera.cloud" className="rounded border border-nexus-accent/60 bg-nexus-accent/10 px-4 py-2">Explore SpectraStrike</a>
           <a href="https://vectorvue.nyxera.cloud" className="rounded border border-nexus-accent/60 bg-nexus-accent/10 px-4 py-2">Explore VectorVue</a>
-          <a href="https://docs.nyxera-nexus.nyxera.cloud" className="rounded border border-nexus-accent/60 bg-nexus-accent/10 px-4 py-2">View Documentation</a>
+          <a href="https://docs.nexus.nyxera.cloud" className="rounded border border-nexus-accent/60 bg-nexus-accent/10 px-4 py-2">View Documentation</a>
         </div>
       </section>
 
