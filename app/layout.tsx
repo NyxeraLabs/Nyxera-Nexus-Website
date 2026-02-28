@@ -23,7 +23,12 @@ export const metadata: Metadata = {
     description: 'The Unified Offensive Intelligence Platform'
   },
   icons: {
-    icon: '/nexus-logo.svg'
+    icon: [
+      { url: '/nexus-logo-hero.png', type: 'image/png' },
+      { url: '/favicon.ico' }
+    ],
+    apple: [{ url: '/nexus-logo-hero.png', type: 'image/png' }],
+    shortcut: ['/nexus-logo-hero.png']
   }
 };
 
