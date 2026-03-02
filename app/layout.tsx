@@ -9,10 +9,10 @@ export const metadata: Metadata = {
     default: 'Nyxera Nexus',
     template: '%s | Nyxera Nexus'
   },
-  description: 'Nyxera Nexus is the commercial integration layer unifying SpectraStrike and VectorVue.',
+  description: 'Nyxera Nexus is the enterprise federated validation platform unifying attested execution, trust governance, and security evidence intelligence.',
   openGraph: {
     title: 'Nyxera Nexus',
-    description: 'The Unified Offensive Intelligence Platform',
+    description: 'Enterprise Federated Validation Platform',
     url: 'https://nexus.nyxera.cloud',
     siteName: 'Nyxera Nexus',
     type: 'website'
@@ -20,7 +20,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Nyxera Nexus',
-    description: 'The Unified Offensive Intelligence Platform'
+    description: 'Enterprise Federated Validation Platform'
   },
   icons: {
     icon: [
