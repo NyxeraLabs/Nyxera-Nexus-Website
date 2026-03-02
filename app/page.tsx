@@ -85,7 +85,7 @@ const comparisonRows = [
 
 export default function HomePage() {
   return (
-    <div className="relative mx-auto w-full max-w-7xl px-4 py-10 sm:px-6 lg:px-8">
+    <div className="relative mx-auto w-full max-w-7xl px-4 py-12 sm:px-6 lg:px-8 lg:py-14">
       <section className="nexus-panel-enterprise relative overflow-hidden rounded-2xl p-8 sm:p-10 lg:p-14">
         <div className="pointer-events-none absolute -top-20 left-1/2 h-80 w-80 -translate-x-1/2 rounded-full bg-nexus-accent/10 blur-3xl" />
         <div className="grid items-center gap-10 lg:grid-cols-[1.15fr_1fr]">
@@ -93,7 +93,7 @@ export default function HomePage() {
             <div className="flex items-center gap-4">
               <img src="/nexus-logo-hero.png" alt="Nyxera Nexus logo" className="h-20 w-20 object-contain sm:h-24 sm:w-24" />
               <div>
-                <h1 className="font-brand text-5xl font-semibold uppercase tracking-[0.12em] text-nexus-text sm:text-6xl">Nyxera Nexus</h1>
+                <h1 className="font-brand text-5xl font-semibold uppercase tracking-[0.1em] text-nexus-text sm:text-6xl lg:text-7xl">Nyxera Nexus</h1>
                 <p className="mt-2 text-sm uppercase tracking-[0.14em] text-nexus-muted sm:text-base">Federated Enterprise Validation Platform</p>
               </div>
             </div>
@@ -122,7 +122,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      <section className="section-enterprise" id="architecture">
+      <section className="section-enterprise mt-2" id="architecture">
         <div className="nexus-panel rounded-2xl p-8 sm:p-10">
           <div className="max-w-3xl">
             <p className="text-xs font-semibold uppercase tracking-[0.14em] text-nexus-muted">Platform Architecture</p>
@@ -198,7 +198,7 @@ export default function HomePage() {
               </thead>
               <tbody className="text-nexus-muted">
                 {comparisonRows.map((row) => (
-                  <tr key={row.capability} className="align-top">
+                  <tr key={row.capability} className="nexus-table-row align-top">
                     <td className="border-b border-nexus-border/70 px-4 py-4 font-medium text-nexus-text">{row.capability}</td>
                     <td className="border-b border-nexus-border/70 px-4 py-4">{row.pointProducts}</td>
                     <td className="border-b border-nexus-border/70 px-4 py-4">{row.nexus}</td>
